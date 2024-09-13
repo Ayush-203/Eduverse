@@ -1,0 +1,67 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.play-container-fluid>.main {
+    height: 100vh;
+    display: flex;
+}
+
+.play-container-fluid>.main>div {
+    padding-left: 50px;
+    padding-top: 75px;
+
+}
+
+.play-container-fluid h3 {
+    margin-top: 2rem;
+}
+
+.player {
+    width: 72vw;
+    height: 60vh;
+    background-color: #ccc;
+}
+
+.playlist {
+    width: 21vw;
+    max-height: 95vh;
+    /* Set a max height */
+    overflow-y: auto;
+    /* Add a vertical scrollbar if needed */
+    background-color: #c4bbbb;
+
+}
+
+.video-container>iframe {
+    width: 72vw;
+    height: 60vh;
+}
+
+.my-item {
+    background-color: blueviolet !important;
+    color: white;
+}
+
+@media only screen and (max-width: 850px) {
+    .play-container-fluid>.main {
+        display: block;
+    }
+
+    .player {
+        width: 85vw;
+        height: 25vh;
+    }
+
+    .playlist {
+        height: 45vh;
+        width: 91vw;
+        max-height: 75vh;
+        /* Adjust the max height for smaller screens */
+    }
+
+    .video-container>iframe {
+        width: 85vw;
+    }
+}

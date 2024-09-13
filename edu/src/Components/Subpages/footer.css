@@ -1,0 +1,38 @@
+.footer {
+
+    margin-bottom: -50px;
+    background: linear-gradient(rgb(255, 254, 254), rgba(3, 0, 22, 0.5)), url('../../assets/f1.jpg');
+
+    background-size: cover;
+    color: black;
+    text-align: center;
+  
+}
+
+.follows span a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.follows span {
+    margin-right: 15px;
+}
+
+.link__list .link__item {
+    background: transparent;
+    font-size: 16px;
+}
+
+.link__list a {
+    text-decoration: none;
+    color: #0a2b1e;
+    font-weight: 500;
+}
+
+.text {
+    margin-top: 20px;
+    font-size: 20px;
+}
+.foot{
+    font-size: 15px;
+}

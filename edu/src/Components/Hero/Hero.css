@@ -1,0 +1,155 @@
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(14, 1, 89, 0.4), rgba(3, 0, 22, 0.7)), url('../../assets/1.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scroll-behavior: smooth;
+
+
+}
+
+.btnstu {
+    margin-right: 20px;
+
+}
+
+.btnreg {
+    margin-right: 20px;
+}
+
+.btn img {
+    width: 20px;
+    margin-left: 10px;
+}
+
+
+.head {
+    font-size: 50px;
+}
+
+.hero-text {
+    text-align: center;
+    max-width: 800px;
+}
+
+.hero-text h1 {
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.hero-text p {
+    max-width: 700px;
+    margin: 10px auto 20px;
+    line-height: 1.4;
+}
+
+
+/* FOR bUTTON  */
+.navigate-button {
+    position: fixed;
+    bottom: 150px;
+    right: 30px;
+    outline: none;
+    border: none;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: all 0.2s ease;
+    background: url('../../assets/ai_icon.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.navigate-button_voice {
+    position: fixed;
+    bottom: 75px;
+    right: 30px;
+    outline: none;
+    border: none;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: all 0.2s ease;
+    background: url('../../assets/btn5.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navigate-button:hover {
+    scale: 1.2;
+}
+
+.navigate-button_voice:hover {
+    scale: 1.2;
+}
+
+.btnstu:hover {
+    scale: 1.1;
+    background-color: rgb(243, 66, 66);
+    color: #fff;
+}
+
+.btnatt:hover {
+    scale: 1.1;
+    background-color: rgb(18, 158, 0);
+    color: #fff;
+}
+
+.top-scroll {
+    position: fixed;
+    /* Keep the button fixed in one spot, regardless of scrolling */
+    bottom: 20px;
+    /* Position it 20px from the bottom */
+    right: 40px;
+    /* Position it 20px from the right */
+    padding: 15px 15px;
+    background-color: #4caf50;
+    /* A pleasant green color */
+    color: white;
+    border: none;
+    border-radius: 50%;
+    /* Optional rounded corners */
+    cursor: pointer;
+    background: url('../../assets/ic.png');
+    background-size: cover;
+}
+
+
+/* SIDE NAVBAR */
+/* .sidebar {
+  
+    color: #fff;
+    width: 20vw;
+
+}
+
+.toggle {
+    margin-left: -55px;
+
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+
+
+} */
+
+
+
+/* Sidebar */

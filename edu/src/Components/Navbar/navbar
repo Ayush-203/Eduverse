@@ -1,0 +1,29 @@
+// import React from 'react';
+// import './Navbar.css';
+// import logo from '../../assets/logo.png';
+// import { Link } from 'react-router-dom';
+// import { Button } from 'reactstrap';
+
+// function Navbar() {
+
+
+//   return (
+//     <nav className='navcomp'>
+//       <img src={logo} alt="" className='logo' />
+
+//       <ul>
+//         <li><Link className='/' to=''>Home</Link></li>
+//         {/* <li>Program</li> */}
+//         <li><Link className="nav-link" to=''>About Us</Link></li>
+//         <li><Link className="nav-link" to="/subpages">Contact</Link></li> {/* Open in a new tab */}
+//         <li><Button className='btn_edit'><Link className="nav-link" to=''>Compiler</Link></Button></li>
+//         <li><Button className='btn_edit'><Link className="nav-link" to=''>eLibrary</Link></Button></li>
+//         {/* <li><Link className="nav-link" to=''>Editor</Link></li>
+//         <li><Link className="nav-link" to=''>eLibrary</Link></li> */}
+//       </ul>
+
+//     </nav>
+//   );
+// }
+
+// export default Navbar;

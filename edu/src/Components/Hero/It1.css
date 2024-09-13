@@ -1,0 +1,70 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.it-container-fluid>.main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main>.sub {
+    background-color: ghostwhite;
+
+}
+
+
+
+.card .card-title {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.sub ul {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 6rem
+}
+
+.sub ul li {
+    cursor: pointer;
+    list-style: none;
+    padding: 0 10px;
+    font-size: 20px;
+}
+
+.sub ul li:hover {
+    background-color: gray;
+}
+
+.courses>.card {
+    margin: 20px;
+}
+
+.courses-container {
+    flex: 1;
+    overflow-y: auto;
+    padding: 50px;
+}
+
+.but {
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    font-weight: 600;
+    outline: none;
+    border: none;
+}
+
+.card-body {
+    height: 200px;
+}
+
+@media only screen and (max-width:850px) {
+    .sub ul {
+        flex-direction: column;
+    }
+}
