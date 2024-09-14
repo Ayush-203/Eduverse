@@ -1,2 +1,2 @@
 
-# Eduverse
+# EduNexus
